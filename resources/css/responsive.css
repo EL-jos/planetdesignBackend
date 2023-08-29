@@ -1,0 +1,199 @@
+@media all and (min-width: 485px) {
+    #el-subheader-middle ul{
+        gap: .5rem;
+    }
+    #el-subheader-middle li p{
+        display: block;
+    }.el-title::before,
+     .el-title::after{
+         width: 80px;
+     }.el-title::before{
+          left: -90px;
+      }.el-title::after{
+           right: -90px;
+       }
+}
+@media all and (min-width: 575px) {
+    .el-content-area{
+        width: 540px;
+    }#el-subheader-middle ul{
+         gap: 1rem;
+     }.el-title::before,
+      .el-title::after{
+          width: 100px;
+      }.el-title::before{
+           left: -110px;
+       }.el-title::after{
+            right: -110px;
+        }
+}
+@media all and (min-width: 768px) {
+    .el-content-area{
+        width: 720px;
+    }#el-about .el-container-countdown{
+         padding: 3rem 1rem;
+     }#el-contact .el-grid-content{
+          width: calc(100% - 8rem);
+      }#el-subheader-middle img{
+           width: 140px;
+       }#el-subheader-middle .el-search{
+            display: flex;
+        }#el-subheader-middle .el-grid{
+             gap: 1rem;
+         }.el-title::before,
+          .el-title::after{
+              width: 110px;
+          }.el-title::before{
+               left: -120px;
+           }.el-title::after{
+                right: -120px;
+            }.el-grid-favoris .el-download-catalog{
+                 align-self: flex-end;
+             }.el-grid-favoris .el-row,
+              .el-grid-favoris .el-list-controls,
+              .el-grids-identification .el-row{
+                  flex-direction: row;
+                  justify-content: space-between;
+              }
+}
+@media all and (min-width: 992px) {
+    .el-content-area{
+        width: 960px;
+        padding: 2rem;
+    }#el-navbar-phone .el-grid{
+         padding: 0 2rem;
+     }#el-offres .el-container{
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 1rem;
+      }#el-offres .el-grid-offres,
+       #el-offres aside{
+           width: 50%;
+       }#el-offres aside{
+            padding: 1rem;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+        }.el-grid-offres .el-offre{
+             height: 100%;
+         }#el-offres .el-grid-offres{
+              grid-template-rows: repeat(2, 185px);
+          }#el-offres .el-content{
+               width: 50%;
+               gap: .5;
+           }#el-offres .owl-carousel{
+                width: 50%;
+            }#el-about .el-container{
+                 gap: 1rem;
+                 flex-direction: row;
+             }#el-about .el-container-countdown {
+                  padding: 4rem 1rem;
+                  width: 100%;
+                  gap: 3rem;
+                  margin: auto;
+              }#el-about .el-presentation{
+                   width: 70%;
+               }.el-container-img{
+                    width: 50%;
+                }#el-contact .el-grid-content{
+                     flex-direction: row;
+                 }.el-coordonnees,
+                  .el-form-contact{
+                      width: 50%;
+                  }#el-menu-desktop{
+                       display: block;
+                   }#el-navbar-phone #el-open-menu-pone{
+                        display: none;
+                    }#el-subheader-middle .el-logo{
+                         margin: 0;
+                         width: 140px;
+                     }#el-subheader-middle img{
+                          width: 100%;
+                      }.el-title::before,
+                       .el-title::after{
+                           width: 150px;
+                       }.el-title::before{
+                            left: -160px;
+                        }.el-title::after{
+                             right: -160px;
+                         }    #el-search-and-my-acoumpt .el-btn-search{
+                                  display: none;
+                              }#el-search-and-my-acoumpt p{
+                                   display: block;
+                               }#el-about .el-container-countdown{
+                                    padding: 2rem 1rem;
+                                }#el-details-article .el-container{
+                                     flex-direction: row;
+                                 }.el-single-product{
+                                      gap: 1rem;
+                                  }.el-container-back-and-share{
+                                       flex-direction: row;
+                                       width: 100%;
+                                       justify-content: space-between;
+                                   }#el-menu-desktop-level-1 a:not(#el-menu-desktop-level-2 a){
+                                        padding: .25rem;
+                                    }
+}
+@media all and (min-width: 1024px) {
+    #el-subheader-middle .el-grid{
+        padding: 1rem 2rem;
+        justify-content: space-between;
+    }
+}
+@media all and (min-width: 1200px) {
+    #el-search-and-my-acoumpt .el-grid,
+    #el-subheader-middle .el-grid,
+    #el-navbar-phone .el-grid,
+    .el-content-area{
+        padding: 0;
+    }.el-content-area{
+         padding: 2rem 1rem;
+         width: 1128px;
+     }#el-subheader-middle .el-grid{
+          padding: .5rem 1rem;
+      }#el-search-and-my-acoumpt .el-grid{
+           justify-content: space-between;
+       }#el-menu-desktop-level-1 a:not(#el-menu-desktop-level-2 a){
+            padding: .5rem;
+        }#el-offres .el-grid-offres {
+             grid-template-rows: repeat(2, 222px);
+         }.el-grids-identification{
+              flex-direction: row;
+          }
+}
+@media all and (min-width: 1366px) {
+    .el-content-area{
+        width: 1288px;
+    }
+}
+@media all and (min-width: 1400px) {
+    .el-content-area{
+        width: 1309px;
+    }#el-subheader-middle .el-logo{
+         width: 225.8px;
+     }#el-subheader-middle .el-content-area{
+          padding: .5rem 0;
+      }#el-offres .el-grid-offres {
+           grid-template-rows: repeat(2, 262px);
+       }.el-title::before, .el-title::after {
+            width: 225px;
+        }.el-title::before {
+             left: -250px;
+         }.el-title::after {
+              right: -250px;
+          }.el-nav-picture{
+               width: 80%;
+           }#el-subheader-middle .el-content-area{
+                padding: .5rem 1rem;
+            }
+}
+@media all and (min-width: 1900px) {
+    /* .el-content-area{
+        width: 1890px;
+    } */
+}
+@media all and (min-width: 2500px) {
+    /* .el-content-area{
+        width: 2336px;
+    } */
+}
